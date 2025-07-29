@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(208, 216, 223);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 100vh;
+}
+
+
+
+.hh1{
+    font-weight: 999;
+}
+
+.hh1 span {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.hh3,.pp2,.hh4,.pp3{
+    text-align: center;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+
+}
+
+.input-area input {
+    padding-left: 1vh;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5vh;
+    align-content: center;
+}
+
+.productive {
+    width: 60vh;
+    height: 30vh;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+
+
+
+.inp1{
+    width: 92vh;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 171, 234);
+    padding-left: 2vh;
+}
+
+.inp2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.daily-affirmation,.top-3-to-dos {
+    width: 100vh;
+    height: 22vh;
+    background-color: rgb(234, 171, 234);
+    border-radius: 16px;
+    padding-left: 3vh;
+}
+
+.top-3-to-dos{
+    background-color: lightblue;
+}
