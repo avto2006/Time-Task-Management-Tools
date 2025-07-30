@@ -122,3 +122,17 @@ main {
 .sec1 {
     text-align: center;
 }
+
+.workBalance {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12vh;
+}
+
+.box1,.box2,.box3,.box4 {
+    background-color: rgb(181, 200, 203);
+    width: 70vh;
+    height: 45vh;
+    border-radius: 12px;
+}
