@@ -128,6 +128,11 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 12vh;
+    align-items: center;
+}
+
+.workBalance div img {
+        margin-top: 5vh;
 }
 
 .box1,.box2,.box3,.box4 {
@@ -136,4 +141,13 @@ main {
     height: 45vh;
     border-radius: 12px;
     text-align: center;
+  
+}
+
+.workBalance input {
+    width: 50vh;
+    height: 6vh;
+    border-radius: 8px;
+    border: 1px solid  rgb(181, 200, 203) ;
+    padding-left: 4vh;
 }
