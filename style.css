@@ -137,17 +137,19 @@ main {
 
 .box1,.box2,.box3,.box4 {
     background-color: rgb(181, 200, 203);
-    width: 70vh;
+    width: 56vh;
     height: 45vh;
     border-radius: 12px;
     text-align: center;
+
   
 }
 
 .workBalance input {
-    width: 50vh;
+    width: 45vh;
     height: 6vh;
     border-radius: 8px;
     border: 1px solid  rgb(181, 200, 203) ;
     padding-left: 4vh;
+    margin-top: 2vh;
 }
