@@ -181,3 +181,7 @@ footer {
     padding-left: 2vh;
     margin-top: 1vh;
 }
+
+@media screen and (width < 916px) {
+     
+}
